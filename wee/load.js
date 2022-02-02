@@ -11,6 +11,9 @@ class load extends Phaser.Scene {
         this.load.image("WorkPlace", "assets/workplace.png");
         this.load.image("QuestionPlace", "assets/questionplace.png");
         this.load.image("MatchBtn", "assets/match.png");
+        this.load.image("title", "assets/title.png");
+        this.load.image("go", "assets/go.png");
+        this.load.image("blocks", "assets/blocks.png");
     }
 
     create(){
